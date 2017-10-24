@@ -1,0 +1,140 @@
+.foudong_left{
+    width:200px;
+    height:400px;
+    position:fixed;
+    left:90px;
+    top:250px;
+}
+
+.foudong_left ul li{
+    width:200px;
+    height:45px;
+    background-color:#9d9d9d;
+    float:left;
+    margin-left:-40px;
+    margin-top:5px;
+    text-align:center;
+    font-size:18px;
+    font-family: 幼圆;
+    border-radius: 5px;
+    display:block;
+    text-decoration: none;
+    transition: margin-left 1s;
+}
+.foudong_left ul li a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.foudong_left ul li a:hover{
+    color:#DDDDDD;
+}
+.foudong_left ul li:hover{
+    box-shadow: 1px 1px 2px 2px #8c8c8c;
+    margin-left:5px;
+}
+
+.Guonei_border{
+    width:900px;
+    height:1540px;
+    position:absolute;
+    left:400px;
+    top:250px;
+}
+.Guonei_border_kuan{
+    width:900px;
+    height:220px;
+    border-bottom:2px solid #8c8c8c;
+    float:left;
+    display:block;
+}
+.Guonei_border_kuan_a{
+    width:350px;
+    height:180px;
+    float:left;
+    display:block;
+    margin-left:50px;
+    margin-top:20px;
+    overflow:hidden;
+    border-radius: 20px;
+}
+.Guonei_box-left{
+    box-shadow:2px 2px 4px 1px #9d9d9d;
+}
+.Guonei_box-right{
+    box-shadow:-2px 2px 4px 1px #9d9d9d;
+}
+.Guonei_border_kuan_b{
+    width:350px;
+    height:180px;
+    float:left;
+    display:block;
+    margin-left:100px;
+    margin-top:20px;
+    overflow:hidden;
+    border-radius: 20px;
+}
+.Guonei_border_kuan_text{
+    font-size:13px;
+    font-family: 幼圆;
+    color:#8c8c8c;
+}
+.Guonei_border_kuan_text a{
+    color:#f0ad4e;
+    font-size:20px;
+    font-family: 幼圆;
+    font-weight: bold;
+    text-decoration: none;
+    position:relative;
+    left:10px;
+    top:10px;
+    transition: color 1s,background-color 1s;
+}
+.Guonei_border_kuan_text a:hover{
+    color:#d9534f;
+    background-color: #eee;
+}
+.Guonei_border_kuan_text p{
+    text-indent:2em;
+    position:relative;
+    left:2px;
+    top:20px;
+    transition: color 1s,text-shadow 1s;
+}
+.Guonei_border_kuan_text p:hover{
+    color:#555;
+    text-shadow: 3px 3px 5px #777;
+}
+
+.Guonei_yewei{
+    width:100%;
+    height:250px;
+    position:absolute;
+    top:1900px;
+}
+.Guowai_yewei{
+    width:100%;
+    height:250px;
+    position:absolute;
+    top:1700px;
+}
+.lunbo_border_a{
+    display:none;
+}
+.lunbo_border_b{
+    display:none;
+}
+.lunbo_border_c{
+    display:none;
+}
+.lunbo_border_d{
+    display:none;
+}
+.lunbo_border_e{
+    display:none;
+}
+.lunbo_border_f{
+    display:none;
+}
+.lunbo_border_g{
+    display:none;
+}

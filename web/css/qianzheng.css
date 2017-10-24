@@ -1,0 +1,93 @@
+.Qianzheng_border{
+    width:900px;
+    position:absolute;
+    left:400px;
+    top:250px;
+}
+
+.Qianzheng_border_a{
+    width:100%;
+    height:350px;
+    float:left;
+}
+.Qianzheng_border_a_biaoti{
+    width:100px;
+    height:30px;
+    font-size:22px;
+    text-align:center;
+    line-height:30px;
+    color:#FFF;
+    background-color:#d9534f;
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+.Qianzheng_border_a_xuanxian{
+    position:absolute;
+    left:50px;
+    top:50px;
+}
+.Qianzheng_border_a_xuanxian_anliu{
+    width:80px;
+    height:40px;
+    border:1px solid #FFF;
+    color:#FFF;
+    background-color:#5cb85c;
+    float:left;
+    display:block;
+    font-size:18px;
+}
+.Qianzheng_border_a_text{
+    width:700px;
+    height:250px;
+    box-shadow: 0 0 2px 1px #9d9d9d;
+    position:absolute;
+    left:50px;
+    top:92px;
+}
+.Qianzheng_border_a_text_guonei{
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+.Qianzheng_border_a_text_guowai{
+    width:100%;
+    height:100%;
+    position: absolute;
+    display:none;
+}
+
+.anliu_chufa{
+    color:#FFF;
+    background-color: #5cb85c;
+    margin:20px;
+    transition: background-color 1s;
+    float:left;
+}
+.anliu_chufa:hover{
+    color:#FFF;
+    background-color: #388039;
+}
+
+.Qianzheng_border_b{
+    width:100%;
+    height:50px;
+    float:left;
+}
+
+.Qianzheng_border_c{
+    width:100%;
+    float:left;
+}
+.Qianzheng_border_c_text{
+    width:700px;
+    color:#9d9d9d;
+    font-size:15px;
+    text-align:left;
+    padding:40px;
+    position:absolute;
+    box-shadow: 0 0 2px 1px #9d9d9d;
+    position:absolute;
+    left:50px;
+    display:none;
+}

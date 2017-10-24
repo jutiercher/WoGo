@@ -1,0 +1,217 @@
+.tuangou_border{
+    width:900px;
+    height:1250px;
+    position:absolute;
+    left:400px;
+    top:250px;
+}
+
+.tuangou_border_remen{
+    width:900px;
+    height:500px;
+    float:left;
+    display:block;
+}
+.tuangou_border_remen_a{
+    width:120px;
+    height:40px;
+    background-color:#f0ad4e;
+    text-align:center;
+    line-height:40px;
+    font-size:22px;
+    color:#d9534f;
+    text-shadow: 2px 2px 2px #9e9e9e;
+    position:absolute;
+    left:20px;
+    top:20px;
+    display:none;
+}
+.tuangou_border_remen_b{
+    width:70px;
+    height:2px;
+    background-color:#DDDDDD;
+    position:absolute;
+    left:140px;
+    top:40px;
+    display:none;
+}
+.tuangou_border_remen_c{
+    width:2px;
+    height:90px;
+    background-color:#DDDDDD;
+    position:absolute;
+    left:210px;
+    top:40px;
+    display:none;
+}
+.tuangou_border_remen_d{
+    width:580px;
+    height:300px;
+    background:#DDDDDD;
+    filter:blur(1.5px);
+    position:absolute;
+    left:50px;
+    top:130px;
+    box-shadow: -2px -2px 4px 4px #DDDDDD;
+    display:none;
+}
+.tuangou_border_remen_e{
+    width:400px;
+    height:250px;
+    background-color: #FFF;
+    position:absolute;
+    left:400px;
+    top:250px;
+    box-shadow: 2px 2px 4px 4px #DDDDDD;
+    display:none;
+}
+.dx_buttom{
+    width:200px;
+    height:40px;
+    font-size: 20px;
+    position:absolute;
+    left:-280px;
+    top:190px;
+    display:none;
+}
+.tuangou_text_biaoti{
+    width:180px;
+    height:40px;
+    background-color: #337ab7;
+    font-size:20px;
+    font-family: 幼圆;
+    text-align:center;
+    color:#FFFFFF;
+    position:absolute;
+    left:31px;
+    top:150px;
+    display:none;
+}
+.tuangou_jiao1{
+    width: 0;
+    height: 0;
+    border-top: 20px solid #337ab7;
+    border-left: 20px solid transparent;
+    position:absolute;
+    top:40px;
+    left:0px;
+}
+
+.tuangou_border_xianshi{
+    width:900px;
+    height:700px;
+    float:left;
+    display:block;
+    margin-top:50px;
+}
+.tuangou_border_xianshi_a{
+    width:120px;
+    height:40px;
+    background-color:#f0ad4e;
+    text-align:center;
+    line-height:40px;
+    font-size:22px;
+    color:#d9534f;
+    text-shadow: 2px 2px 2px #9e9e9e;
+    position:absolute;
+    left:100px;
+    top:570px;
+    display:none;
+}
+.tuangou_border_xianshi_b{
+    width:70px;
+    height:2px;
+    background-color:#DDDDDD;
+    position:absolute;
+    left:30px;
+    top:590px;
+    display:none;
+}
+.tuangou_border_xianshi_c{
+    width:2px;
+    height:150px;
+    background-color:#DDDDDD;
+    position:absolute;
+    left:30px;
+    top:590px;
+    display:none;
+}
+.tuangou_border_xianshi_d{
+    width:270px;
+    height:2px;
+    background-color:#DDDDDD;
+    position:absolute;
+    left:30px;
+    top:740px;
+    display:none;
+}
+.tuangou_border_xianshi_e{
+    width:500px;
+    height:500px;
+    border-radius: 300px;
+    -webkit-border-radius: 300px;
+    background-color: #DDD;
+    filter:blur(1.5px);
+    -webkit-filter:blur(1.5px);
+    position:absolute;
+    left:380px;
+    top:600px;
+    overflow: hidden;
+    box-shadow: 2px -2px 4px 4px #DDDDDD;
+    display:none;
+}
+.tuangou_border_xianshi_f{
+    width:400px;
+    height:400px;
+    background-color: #FFF;
+    border-radius: 200px;
+    position:absolute;
+    left:235px;
+    top:700px;
+    box-shadow: -2px 2px 4px 4px #DDDDDD;
+    display:none;
+}
+.tuangou_border_xianshi_g{
+    width:150px;
+    height:150px;
+    background-color: #337ab7;
+    border-radius: 75px;
+    font-size:20px;
+    font-family: 幼圆;
+    line-height:150px;
+    text-align:center;
+    color:#FFFFFF;
+    position:absolute;
+    left:700px;
+    top:600px;
+    display:none;
+}
+.tuangou_border_xianshi_h{
+    width:700px;
+    height:60px;
+    background-color:#d9534f;
+    font-size:25px;
+    text-align:center;
+    line-height:60px;
+    color:#FFF;
+    position:absolute;
+    left:100px;
+    top:1180px;
+    display:none;
+}
+.dx_buttom_b{
+    width:200px;
+    height:40px;
+    font-size: 20px;
+    position:absolute;
+    left:95px;
+    top:440px;
+    display:none;
+}
+
+.Tuangou_yewei{
+    width:100%;
+    height:250px;
+    position:absolute;
+    top:1600px;
+}

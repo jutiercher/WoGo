@@ -1,0 +1,50 @@
+$(document).ready(function(){
+    $(".wanda_c_al").mouseenter(function(){
+        $(".wanda_a_img").animate({
+            width:'125%',
+            height:'125%'
+        },2000);
+    });
+    $(".wanda_c_al").mouseleave(function(){
+        $(".wanda_a_img").animate({
+            width:'100%',
+            height:'100%'
+        },2000);
+    });
+
+    $(".xierdun_a_al").mouseenter(function(){
+        $(".xierdun_a_img").animate({
+            width:'125%',
+            height:'125%'
+        },2000);
+    });
+    $(".xierdun_a_al").mouseleave(function(){
+        $(".xierdun_a_img").animate({
+            width:'100%',
+            height:'100%'
+        },2000);
+    });
+
+    $(".xianggelila_c_al").mouseenter(function(){
+        $(".xianggelila_a_b").animate({left:'40px'},1000);
+        $(".xianggelila_a_c").animate({left:'350px'},1000);
+        $(".xianggelila_a_d").animate({top:'260'},1000);
+    });
+    $(".xianggelila_c_al").mouseleave(function(){
+        $(".xianggelila_a_b").animate({left:'70px'},1000);
+        $(".xianggelila_a_c").animate({left:'320px'},1000);
+        $(".xianggelila_a_d").animate({top:'230'},1000);
+    });
+
+
+    $(".wanhao_c_al").mouseenter(function(){
+        $(".wanhao_a_a").animate({right:'30px'},1000);
+        $(".wanhao_a_b").animate({top:'20px'},1000);
+        $(".wanhao_a_c").animate({right:'170px',bottom:'0px'},1000);
+    });
+    $(".wanhao_c_al").mouseleave(function(){
+        $(".wanhao_a_a").animate({right:'50px'},1000);
+        $(".wanhao_a_b").animate({top:'40px'},1000);
+        $(".wanhao_a_c").animate({right:'150px',bottom:'20px'},1000);
+    });
+});
