@@ -1,4 +1,28 @@
 $(document).ready(function () {
+    document.getElementById('denglu_qingqiu').addEventListener("click",logintext);
+
+    function logintext() {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET','login.json',true);
+
+        xhr.onload = function () {
+            var aq = xhr.readyState;
+            //var txt = this.responseText;
+            if(this.status == 200 && this.readyState == 4){
+                var user = JSON.parse(this.responseText);
+                var output = '';
+                output +=
+                    '<div>'+'&nbsp;用户名:'+user.name+'&nbsp;等级:'+user.dj+'</div>'
+                ;
+
+                document.getElementById('denglu_xianshi').innerHTML = output ;
+            }
+        }
+
+
+        xhr.send();
+    }
+
     $("#xiala").click(function () {
         $("#xiala span").toggleClass("glyphicon-triangle-top");
         $("#shangla").slideToggle();

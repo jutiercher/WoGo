@@ -37,31 +37,31 @@
 </head>
 <body>
   <div class="col-md-12 kuangjia_tou">
-    <div class="kuangjia_tou_shang" id="shangla">
-      <div class="kuangjia_tou_shang_a"><i>一切由你~</i></div>
-      <div class="kuangjia_tou_shang_b">
-        <a href="register.jsp">注册</a>|<a href="login.jsp">登录</a>|<a href="#">帮助</a>
-      </div>
-      <div class="kuangjia_tou_shang_c">咨询方式
-        <span>全国热线:080-123456789</span>
-        <span>
+  <div class="kuangjia_tou_shang" id="shangla">
+    <div class="kuangjia_tou_shang_a"><i>一切由你~</i></div>
+    <div class="kuangjia_tou_shang_b" id="denglu_xianshi">
+      <a href="register.jsp">注册</a>|<a href="login.jsp" target="_blank" id="denglu_qingqiu">登录</a>|<a href="#">帮助</a>
+    </div>
+    <div class="kuangjia_tou_shang_c">咨询方式
+      <span>全国热线:080-123456789</span>
+      <span>
           <a href="#">
             <img src="images/weixin.png" alt="微信登录" style="width:20px;height:18px;">
           </a>
         </span>
-        <span>
+      <span>
           <a href="#">
             <img src="images/qq.png" alt="QQ登录" style="width:20px;height:18px;">
           </a>
         </span>
-      </div>
-    </div>
-    <div class="kuangjia_tou_xia">
-      <div class="kuangjia_tou_xia_kuai" id="xiala">
-        <span class="glyphicon glyphicon-triangle-bottom"></span>
-      </div>
     </div>
   </div>
+  <div class="kuangjia_tou_xia">
+    <div class="kuangjia_tou_xia_kuai" id="xiala">
+      <span class="glyphicon glyphicon-triangle-bottom"></span>
+    </div>
+  </div>
+</div>
 
   <div class="col-md-12 kuangjia_daohang" id="zd_top">
     <div class="kuangjia_daohang_a">
@@ -82,7 +82,7 @@
             <li><a href="#">鼓浪屿</a></li>
             <li><a href="#">长城</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">更多+</a></li>
+            <li><a href="GuoNei.jsp">更多+</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -96,12 +96,12 @@
             <li><a href="#">开罗</a></li>
             <li><a href="#">巴黎</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">更多+</a></li>
+            <li><a href="GuoWai.jsp">更多+</a></li>
           </ul>
         </li>
-        <li><a href="#" class="dhcolor">团购游</a></li>
-        <li><a href="#" class="dhcolor">签证</a></li>
-        <li><a href="#" class="dhcolor">酒店公寓</a></li>
+        <li><a href="TuanGou.jsp" class="dhcolor">团购游</a></li>
+        <li><a href="QianZheng.jsp" class="dhcolor">签证</a></li>
+        <li><a href="JiuDian.jsp" class="dhcolor">酒店公寓</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle dhcolor" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">交通 <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -109,11 +109,11 @@
             <li><a href="#">铁路</a></li>
             <li><a href="#">公路</a></li>
             <li><a href="#">水路</a></li>
-            <li><a href="#">特种</a></li>
+            <li><a href="JiaoTong.jsp">更多</a></li>
           </ul>
         </li>
         <li><a href="#" class="dhcolor">周边景点</a></li>
-        <li><a href="#" class="dhcolor">旅游攻略</a></li>
+        <li><a href="index.jsp" class="dhcolor">首页</a></li>
       </ul>
     </div>
   </div>
@@ -121,28 +121,28 @@
   <div class="foudong_left">
     <ul>
       <li class="btn">
-        <a href="#" target="_self">国内游</a>
+        <a href="GuoNei.jsp" target="_self">国内游</a>
       </li>
       <li class="btn">
-        <a href="#" target="_self">国外游</a>
+        <a href="GuoWai.jsp" target="_self">国外游</a>
       </li>
       <li class="btn">
-        <a href="#" target="_self">团购游</a>
+        <a href="TuanGou.jsp" target="_self">团购游</a>
       </li>
       <li class="btn">
-        <a href="#" target="_self">签证</a>
+        <a href="QianZheng.jsp" target="_self">签证</a>
       </li>
       <li class="btn">
-        <a href="#" target="_self">酒店公寓</a>
+        <a href="JiuDian.jsp" target="_self">酒店公寓</a>
       </li>
       <li class="btn">
-        <a href="#" target="_self">交通</a>
+        <a href="JiaoTong.jsp" target="_self">交通</a>
       </li>
       <li class="btn">
         <a href="#" target="_self">周边景点</a>
       </li>
       <li class="btn">
-        <a href="#" target="_self">旅游攻略</a>
+        <a href="index.jsp" target="_self">首页</a>
       </li>
     </ul>
   </div>

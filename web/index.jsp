@@ -18,14 +18,11 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/WangYe-KuangJia.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/default.css">
-  <link rel="stylesheet" href="css/style.css">
   <script src="js/jquery-1.10.2.js"></script>
   <script src="js/jquery.validate.js"></script>
   <script src="js/jquery.validate.unobtrusive.js"></script>
+  <script src="http://api.html5media.info/1.1.4/html5media.min.js"></script>
   <script src="js/WangYe-KuangJia.js"></script>
-  <script src="js/PicCarousel.js"></script>
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -37,8 +34,8 @@
   <div class="col-md-12 kuangjia_tou">
     <div class="kuangjia_tou_shang" id="shangla">
       <div class="kuangjia_tou_shang_a"><i>一切由你~</i></div>
-      <div class="kuangjia_tou_shang_b">
-        <a href="register.jsp">注册</a>|<a href="login.jsp">登录</a>|<a href="#">帮助</a>
+      <div class="kuangjia_tou_shang_b" id="denglu_xianshi">
+        <a href="register.jsp">注册</a>|<a href="login.jsp" target="_blank" id="denglu_qingqiu">登录</a>|<a href="#">帮助</a>
       </div>
       <div class="kuangjia_tou_shang_c">咨询方式
         <span>全国热线:080-123456789</span>
@@ -80,7 +77,7 @@
             <li><a href="#">鼓浪屿</a></li>
             <li><a href="#">长城</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">更多+</a></li>
+            <li><a href="GuoNei.jsp">更多+</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -94,12 +91,12 @@
             <li><a href="#">开罗</a></li>
             <li><a href="#">巴黎</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">更多+</a></li>
+            <li><a href="GuoWai.jsp">更多+</a></li>
           </ul>
         </li>
-        <li><a href="#" class="dhcolor">团购游</a></li>
-        <li><a href="#" class="dhcolor">签证</a></li>
-        <li><a href="#" class="dhcolor">酒店公寓</a></li>
+        <li><a href="TuanGou.jsp" class="dhcolor">团购游</a></li>
+        <li><a href="QianZheng.jsp" class="dhcolor">签证</a></li>
+        <li><a href="JiuDian.jsp" class="dhcolor">酒店公寓</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle dhcolor" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">交通 <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -107,11 +104,11 @@
             <li><a href="#">铁路</a></li>
             <li><a href="#">公路</a></li>
             <li><a href="#">水路</a></li>
-            <li><a href="#">特种</a></li>
+            <li><a href="JiaoTong.jsp">更多</a></li>
           </ul>
         </li>
         <li><a href="#" class="dhcolor">周边景点</a></li>
-        <li><a href="#" class="dhcolor">旅游攻略</a></li>
+        <li><a href="index.jsp" class="dhcolor">首页</a></li>
       </ul>
     </div>
   </div>
@@ -127,7 +124,7 @@
     <div class="zhuye_video_bj">
       <div class="zhuye_video_bj_tm"></div>
     </div>
-    <video src="video/zhuye_video.mp4" class="zhuye_video_ys" autoplay loop></video>
+    <video src="video/zhuye_video.mp4" class="zhuye_video_ys" width="1500" height="600" autoplay loop preload="auto"></video>
   </div>
 
   <div class="zhuye_video_text">
@@ -301,7 +298,7 @@
   </div>
 
   <div class="reding_kuangjia">
-    <video src="video/bali.mp4" style="width: 100%;height:100%;object-fit: fill;float:left;" autoplay loop></video>
+    <video src="video/bali.mp4" style="width: 100%;height:100%;object-fit: fill;float:left;" autoplay loop preload="auto"></video>
 
     <div class="reding_kuangjia_beijing">
       <div class="reding_kuangjia_beijing_tp">
@@ -399,8 +396,7 @@
   </div>
 
   <div class="tuangou_kuangjia">
-    <video src="video/malaixiya.mp4" style="width: 100%;height:100%;object-fit: fill;float:left;" autoplay loop></video>
-
+    <video src="video/malaixiya.mp4" style="width: 100%;height:100%;object-fit: fill;float:left;" autoplay loop preload="auto">asfa</video>
     <div class="tuangou_kuangjia_beijing">
       <div class="tuangou_kuangjia_beijing_tp">
         <div class="carousel slide" id="mycarousel" data-ride="carousel">

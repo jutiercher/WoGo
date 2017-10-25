@@ -6,6 +6,7 @@
     z-index:1;
 }
 
+
 .kuangjia_tou_shang{
     width:100%;
     height:30px;
@@ -13,6 +14,7 @@
     border-radius: 0 0 5px 5px;
     display:none;
 }
+
 
 .kuangjia_tou_xia{
     width:100%;
@@ -51,6 +53,14 @@
     position:relative;
     left:39%;
 }
+
+.kuangjia_tou_shang_b div{
+    color:#ffffff;
+    text-decoration: none;
+    margin-left:5px;
+    margin-right:5px;
+}
+
 .kuangjia_tou_shang_b a{
     color:#ffffff;
     text-decoration: none;
@@ -197,7 +207,6 @@
     top:320px;
 }
 .zhuye_video_ys{
-    float:left;
     width:1500px;
     height:600px;
 }
@@ -1354,9 +1363,9 @@
 .reding_kuangjia_beijing{
     width:100%;
     height:100%;
-    float:left;
-    position:absolute;
     background-color: rgba(220,220,220,0.5);
+    position:absolute;
+    top:0px;
 }
 .reding_kuangjia_beijing_tp{
     width:600px;
@@ -1427,9 +1436,9 @@
 .tuangou_kuangjia_beijing{
     width:100%;
     height:100%;
-    float:left;
     position:absolute;
     background-color: rgba(220,220,220,0.5);
+    top:0px;
 }
 .tuangou_kuangjia_beijing_tp{
     width:600px;
